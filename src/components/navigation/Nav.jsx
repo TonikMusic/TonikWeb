@@ -13,6 +13,7 @@ class Nav extends React.Component {
   render() {
     return (
       <div className="nav_container">
+        <h1>NAVBAR WORKS!</h1>
         <nav>
           <div className="left_menu" />
         </nav>
