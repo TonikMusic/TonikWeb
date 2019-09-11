@@ -1,0 +1,12 @@
+@import "../../styles/variables/variables.scss";
+
+.nav_container {
+  width: 100%;
+  border: solid black 5px;
+}
+
+.nav_container img {
+  height: 10vh;
+  width: 10vw;
+  margin-left: -2vw;
+}
