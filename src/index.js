@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -11,7 +12,9 @@ import Nav from './components/navigation/Nav';
 const appRoutes = (
   <Router>
     <Nav />
-    <App />
+    <div>
+      <Route exact path="/" component={App} />
+    </div>
   </Router>
 );
 

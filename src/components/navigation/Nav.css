@@ -1,11 +1,31 @@
-.nav_container {
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
+.nav__container nav {
+  overflow: hidden;
+  background: #940ea1;
+  position: fixed;
+  top: 0;
   width: 100%;
   border: solid black 5px;
 }
 
-.nav_container img {
+.nav__container nav img {
   height: 10vh;
   width: 10vw;
   margin-left: -2vw;
+}
+
+.nav__container nav ul {
+  text-align: left;
+  margin: 0;
+  padding: fixed;
+}
+
+.nav__container nav ul li {
+  display: inline;
+  margin: 2vw;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
 }
 /*# sourceMappingURL=Nav.css.map */
