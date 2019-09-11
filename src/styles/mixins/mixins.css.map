@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AACA,OAAO,CAAC,gFAAI",
+    "mappings": "AAEA,OAAO,CAAC,gFAAI",
     "sources": [
         "mixins.scss"
     ],

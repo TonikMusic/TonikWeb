@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
+import LogoColor from '../../assets/MainLogoColor.png';
 
 class Nav extends React.Component {
   constructor() {
@@ -13,9 +15,12 @@ class Nav extends React.Component {
   render() {
     return (
       <div className="nav_container">
-        <h1>NAVBAR WORKS!</h1>
         <nav>
-          <div className="left_menu" />
+          <ul className="nav_items">
+            <Link to="/">
+              <img src={LogoColor} alt="#" />
+            </Link>
+          </ul>
         </nav>
       </div>
     );
