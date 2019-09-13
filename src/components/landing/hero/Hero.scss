@@ -24,4 +24,12 @@
     );
     word-spacing: 0.25em;
   }
+
+  #hero__heading_secondary {
+    @include secondary--font(
+      $size: 25px,
+      $color: $white,
+      $ls: 2px
+    );
+  }
 }
