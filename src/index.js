@@ -11,7 +11,6 @@ import Nav from './components/navigation/Nav';
 
 const appRoutes = (
   <Router>
-    <Nav />
     <div>
       <Route exact path="/" component={App} />
     </div>
