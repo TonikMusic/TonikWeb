@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAElB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EAEvB,gBAAgB,EAAE,iDAAiD;CACpE",
+    "mappings": "ACEA,OAAO,CAAC,gFAAI;ADCZ,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,MAAM;EAElB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EAEvB,gBAAgB,EAAE,iDAAiD;EACnE,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EAEtB,UAAU,EAAE,KAAK;CAWlB;;AAvBD,AAcE,KAdG,CAcH,sBAAsB,CAAC;ECPvB,WAAW,EAAE,wBAAwB;EAEnC,SAAS,EDOA,IAAI;ECJb,KAAK,ECRD,IAAI;EDWR,WAAW,EDGA,IAAI;ECGf,cAAc,EDFP,GAAG;EAEV,YAAY,EAAE,MAAM;CACrB",
     "sources": [
-        "Hero.scss"
+        "Hero.scss",
+        "../../../styles/mixins/mixins.scss",
+        "../../../styles/variables/variables.scss"
     ],
     "names": [],
     "file": "Hero.css"

@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
 .hero {
-  color: #fff;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,5 +15,17 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-image: url("../../../assets/Images/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.hero #hero__heading_primary {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 0.25em;
 }
 /*# sourceMappingURL=Hero.css.map */

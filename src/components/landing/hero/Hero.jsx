@@ -6,7 +6,9 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero__heading">
-        <h1>Build Your Brand</h1>
+        <h1>
+          <span id="hero__heading_primary">Build Your Brand</span>
+        </h1>
         <h3>Find opprotunity with Tonik</h3>
       </div>
     </div>
