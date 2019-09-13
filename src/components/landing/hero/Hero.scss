@@ -1,7 +1,7 @@
 @import '../../../styles/mixins/mixins.scss';
 @import '../../../styles/variables/variables.scss';
 
-.hero {
+.hero__heading {
   text-align: center;
 
   display: flex;
@@ -13,7 +13,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-height: 100vh;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
 
   #hero__heading_primary {
     @include primary--font(
@@ -23,6 +31,7 @@
       $ls: 2px
     );
     word-spacing: 0.25em;
+    cursor: default;
   }
 
   #hero__heading_secondary {
@@ -31,5 +40,9 @@
       $color: $white,
       $ls: 2px
     );
+    cursor: default;
   }
+}
+
+img {
 }
