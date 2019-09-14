@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import Hero from './components/landing/hero/Hero';
+import Landing from './components/landing/Landing';
 
-function App() {
-  return <Hero />;
-}
+const App = () => <Landing />;
 
 export default App;

@@ -31,9 +31,9 @@
   $color: false,
   $weight: false,
   $lh: false,
-  $ls
+  $ls: false
 ) {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Abel', sans-serif;
   @if $size {
     font-size: $size;
   }

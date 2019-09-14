@@ -1,0 +1,29 @@
+@import '../../../styles/mixins/mixins.scss';
+@import '../../../styles/variables/variables.scss';
+
+.landing_featured {
+  padding: 50px;
+
+  .landing_featured__title {
+    @include primary--font(
+      $size: 3em,
+      $color: $altSecondaryColor,
+      $weight: bold,
+      $lh: 2
+    );
+  }
+
+  .landing_featured__artists_genres {
+    border: $secondaryColor solid 2px;
+    border-radius: 5px;
+
+    margin-left: 2px;
+    margin-bottom: 15px;
+
+    @include secondary--font(
+      $size: 1em,
+      $color: $primaryColor,
+      $weight: bold
+    );
+  }
+}
