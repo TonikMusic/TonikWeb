@@ -1,0 +1,37 @@
+@import '../../../styles/mixins/mixins.scss';
+@import '../../../styles/variables/variables.scss';
+
+.landing_hero {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url('../../../assets/Images/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+
+  #landing_hero__heading_primary {
+    @include primary--font(
+      $size: 70px,
+      $color: $white,
+      $weight: bold,
+      $ls: 2px
+    );
+    word-spacing: 0.25em;
+    cursor: default;
+  }
+
+  #landing_hero__heading_secondary {
+    @include secondary--font(
+      $size: 25px,
+      $color: $white,
+      $ls: 2px
+    );
+    cursor: default;
+  }
+}

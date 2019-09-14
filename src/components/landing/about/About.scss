@@ -1,0 +1,35 @@
+@import '../../../styles/mixins/mixins.scss';
+@import '../../../styles//variables/variables.scss';
+
+.landing_about {
+  padding: 50px;
+
+  .landing_about__title {
+    @include primary--font(
+      $size: 3em,
+      $color: $altSecondaryColor,
+      $weight: bold,
+      $lh: 2
+    );
+    text-align: center;
+  }
+
+  #two_columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .landing_about__text {
+      width: 80%;
+      max-width: 1000px;
+      margin-left: 80px;
+
+      @include secondary--font(
+        $size: 1.15em,
+        $weight: 600,
+        $lh: 2.5
+      );
+    }
+  }
+}
