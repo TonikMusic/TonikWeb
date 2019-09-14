@@ -6,8 +6,8 @@ import SmallLogoColor from '../../../assets/Logos/SmallLogoColor.png';
 function About() {
   return (
     <div id="about" className="landing_about">
-      <h3 className="landing_about__title">What is Tonik?</h3>
-      <div className="landing_about__two_columns">
+      <h3 className="landing_about__title">What Is Tonik?</h3>
+      <div id="two_columns">
         <div className="landing_about__logo">
           <img src={SmallLogoColor} alt="#" />
         </div>

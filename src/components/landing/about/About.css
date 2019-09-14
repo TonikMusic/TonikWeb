@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
+.landing_about {
+  padding: 50px;
+}
+
+.landing_about .landing_about__title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  color: #6623d1;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+}
+
+.landing_about #two_columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing_about #two_columns .landing_about__text {
+  width: 80%;
+  max-width: 1000px;
+  margin-left: 80px;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.15em;
+  font-weight: 600;
+  line-height: 2.5;
+}
+/*# sourceMappingURL=About.css.map */
