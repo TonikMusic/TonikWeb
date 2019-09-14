@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=Hero.css.map */
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
+.landing_hero {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../../assets/Images/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.landing_hero #landing_hero__heading_primary {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 0.25em;
+  cursor: default;
+}
+
+.landing_hero #landing_hero__heading_secondary {
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: default;
+}
+/*# sourceMappingURL=Hero.css.map */

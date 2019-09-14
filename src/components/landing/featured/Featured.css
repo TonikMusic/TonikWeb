@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
+.landing_featured {
+  padding: 50px;
+}
+
+.landing_featured .landing_featured__title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  color: #6623d1;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.landing_featured .landing_featured__artists_genres {
+  border: #f6b1cd solid 2px;
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-bottom: 15px;
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  color: #940ea1;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Featured.css.map */
