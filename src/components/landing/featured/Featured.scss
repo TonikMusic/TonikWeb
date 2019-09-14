@@ -1,0 +1,15 @@
+@import '../../../styles/mixins/mixins.scss';
+@import '../../../styles/variables/variables.scss';
+
+.landing_featured {
+  padding: 50px;
+
+  .landing_featured__title {
+    @include primary--font(
+      $size: 3em,
+      $color: $altSecondaryColor,
+      $weight: bold,
+      $lh: 2
+    );
+  }
+}

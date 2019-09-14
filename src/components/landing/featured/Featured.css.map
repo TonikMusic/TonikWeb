@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACEA,OAAO,CAAC,gFAAI;ADCZ,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;CAUd;;AAXD,AAGE,iBAHe,CAGf,wBAAwB,CAAC;ECIzB,WAAW,EAAE,wBAAwB;EAEnC,SAAS,EDJA,GAAG;ECOZ,KAAK,ECXW,OAAO;EDcvB,WAAW,EDRA,IAAI;ECWf,WAAW,EDVJ,CAAC;CAET",
+    "sources": [
+        "Featured.scss",
+        "../../../styles/mixins/mixins.scss",
+        "../../../styles/variables/variables.scss"
+    ],
+    "names": [],
+    "file": "Featured.css"
+}

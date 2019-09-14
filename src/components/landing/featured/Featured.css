@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
+.landing_featured {
+  padding: 50px;
+}
+
+.landing_featured .landing_featured__title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  color: #6623d1;
+  font-weight: bold;
+  line-height: 2;
+}
+/*# sourceMappingURL=Featured.css.map */
