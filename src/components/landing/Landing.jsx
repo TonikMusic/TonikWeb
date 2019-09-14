@@ -7,8 +7,12 @@ import About from './about/About';
 function Landing() {
   return (
     <div>
-      <Hero />
-      <About />
+      <div>
+        <Hero />
+      </div>
+      <div>
+        <About />
+      </div>
     </div>
   );
 }
