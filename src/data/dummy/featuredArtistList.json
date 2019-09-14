@@ -1,40 +1,48 @@
 [
   {
+    "id": 0,
     "name": "Self",
     "profile_img": "https://randomuser.me/api/portraits/men/44.jpg",
     "genre": ["Rock", "Pop"]
   },
   {
+    "id": 1,
     "name": "Crav3",
     "profile_img": "https://randomuser.me/api/portraits/men/28.jpg",
     "genre": ["Rock"]
   },
   {
+    "id": 2,
     "name": "Kim",
     "profile_img": "https://randomuser.me/api/portraits/women/47.jpg",
     "genre": ["Hip-Hop"]
   },
   {
+    "id": 3,
     "name": "Ella",
     "profile_img": "https://randomuser.me/api/portraits/women/17.jpg",
     "genre": ["Pop", "Rock", "Hip-Hop"]
   },
   {
+    "id": 4,
     "name": "Tectonic",
     "profile_img": "https://randomuser.me/api/portraits/men/18.jpg",
     "genre": ["House", "EDM", "Trap"]
   },
   {
+    "id": 5,
     "name": "Kidd",
     "profile_img": "https://randomuser.me/api/portraits/women/12.jpg",
     "genre": ["Rap"]
   },
   {
+    "id": 6,
     "name": "Billie",
     "profile_img": "https://randomuser.me/api/portraits/women/70.jpg",
     "genre": ["Country"]
   },
   {
+    "id": 7,
     "name": "Lessim",
     "profile_img": "https://randomuser.me/api/portraits/men/32.jpg",
     "genre": ["Pop"]
