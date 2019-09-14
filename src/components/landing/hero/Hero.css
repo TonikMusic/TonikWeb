@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
-.hero__heading {
+.landing_hero__heading {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,7 +26,7 @@
   left: 0;
 }
 
-.hero__heading #hero__heading_primary {
+.landing_hero__heading #landing_hero__heading_primary {
   font-family: 'Fjalla One', sans-serif;
   font-size: 70px;
   color: #fff;
@@ -36,7 +36,7 @@
   cursor: default;
 }
 
-.hero__heading #hero__heading_secondary {
+.landing_hero__heading #landing_hero__heading_secondary {
   font-family: 'Abel', sans-serif;
   font-size: 25px;
   color: #fff;
