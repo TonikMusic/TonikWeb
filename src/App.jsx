@@ -3,8 +3,6 @@ import './App.css';
 
 import Landing from './components/landing/Landing';
 
-function App() {
-  return <Landing />;
-}
+const App = () => <Landing />;
 
 export default App;
