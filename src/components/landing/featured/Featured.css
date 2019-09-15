@@ -55,4 +55,16 @@
   margin-left: 5px;
   padding: 5px;
 }
+
+.landing_featured .landing_featured__artist_cards .landing_featured__artist_card .landing_featured__artist_view {
+  margin: 20px;
+}
+
+.landing_featured .landing_featured__artist_cards .landing_featured__artist_card .landing_featured__artist_view button {
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  color: #000;
+  border: solid #000 2px;
+  border-radius: 10px 10px 10px 10px;
+}
 /*# sourceMappingURL=Featured.css.map */

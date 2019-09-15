@@ -14,6 +14,9 @@ const Featured = () => (
             {artists.genre.map((genres) => (
               <div className="landing_featured__artist_genre">{genres}</div>
             ))}
+            <div className="landing_featured__artist_view">
+              <button type="button">View Artist</button>
+            </div>
           </article>
         ))}
       </section>

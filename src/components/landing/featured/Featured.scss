@@ -51,6 +51,17 @@
         margin-left: 5px;
         padding: 5px;
       }
+
+      .landing_featured__artist_view {
+        margin: 20px;
+
+        button {
+          @include secondary--font($size: 1em, $color: $black);
+
+          border: solid $black 2px;
+          border-radius: 10px 10px 10px 10px;
+        }
+      }
     }
   }
 }
