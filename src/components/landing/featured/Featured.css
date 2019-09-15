@@ -22,17 +22,49 @@
 
 .landing_featured .landing_featured__artist_cards .landing_featured__artist_card {
   background-color: #f6b1cd;
-  margin: 10px;
   border-radius: 20px 20px 20px 20px;
+  -webkit-box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.55);
+          box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.55);
+  margin: 10px;
   padding: 30px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 20.5%;
           flex: 0 1 20.5%;
 }
 
+.landing_featured .landing_featured__artist_cards .landing_featured__artist_card img {
+  border: solid #fff 5px;
+  border-radius: 50%;
+}
+
 .landing_featured .landing_featured__artist_cards .landing_featured__artist_card .landing_featured__artist_name {
   font-family: 'Fjalla One', sans-serif;
   font-size: 1em;
   color: #fff;
+  line-height: 2;
+}
+
+.landing_featured .landing_featured__artist_cards .landing_featured__artist_card .landing_featured__artist_genre {
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  border: 2px #fff solid;
+  border-radius: 10px 10px 10px 10px;
+  background: #64058f;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.landing_featured .landing_featured__artist_cards .landing_featured__artist_card .landing_featured__artist_view {
+  margin: 20px;
+}
+
+.landing_featured .landing_featured__artist_cards .landing_featured__artist_card .landing_featured__artist_view button {
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  color: #000;
+  border: solid #000 2px;
+  border-radius: 10px 10px 10px 10px;
 }
 /*# sourceMappingURL=Featured.css.map */

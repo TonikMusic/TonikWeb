@@ -20,13 +20,47 @@
 
     .landing_featured__artist_card {
       background-color: $secondaryColor;
-      margin: 10px;
       border-radius: 20px 20px 20px 20px;
+      box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.55);
+
+      margin: 10px;
       padding: 30px;
       flex: 0 1 20.5%;
 
+      img {
+        border: solid $white 5px;
+        border-radius: 50%;
+      }
+
       .landing_featured__artist_name {
-        @include primary--font($size: 1em, $color: $white);
+        @include primary--font(
+          $size: 1em,
+          $color: $white,
+          $lh: 2
+        );
+      }
+
+      .landing_featured__artist_genre {
+        @include secondary--font($size: 1em, $color: $white);
+
+        border: 2px $white solid;
+        border-radius: 10px 10px 10px 10px;
+        background: $altPrimaryColor;
+
+        display: inline-block;
+        margin-left: 5px;
+        padding: 5px;
+      }
+
+      .landing_featured__artist_view {
+        margin: 20px;
+
+        button {
+          @include secondary--font($size: 1em, $color: $black);
+
+          border: solid $black 2px;
+          border-radius: 10px 10px 10px 10px;
+        }
       }
     }
   }
