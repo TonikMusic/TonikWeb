@@ -34,7 +34,7 @@
 
       .landing_featured__artist_name {
         @include primary--font(
-          $size: 1em,
+          $size: 1.5em,
           $color: $white,
           $lh: 2
         );
