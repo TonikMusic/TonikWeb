@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
 .landing_featured {
   padding: 50px;
+  margin-bottom: 5vh;
 }
 
 .landing_featured .landing_featured__title {
