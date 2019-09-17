@@ -1,1 +1,79 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
+.landing_footer {
+  background: #940ea1;
+  min-height: 35vh;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing_footer .landing_footer_text {
+  font-family: 'Abel', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  padding: 50px;
+  width: 60%;
+  text-align: center;
+}
+
+.landing_footer .landing_footer_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.landing_footer .landing_footer_buttons #landing_signup {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 2px;
+  background: none;
+  border: 5px solid #fff;
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 5vw;
+  padding: 20px;
+}
+
+.landing_footer .landing_footer_buttons #landing_signup:hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background: #f6b1cd;
+  border: solid 5px #f6b1cd;
+  cursor: pointer;
+}
+
+.landing_footer .landing_footer_buttons #landing_login {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 2px;
+  background: none;
+  border: 5px solid #fff;
+  border-radius: 20px 20px 20px 20px;
+  padding: 20px;
+}
+
+.landing_footer .landing_footer_buttons #landing_login:hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background: #f6b1cd;
+  border: solid 5px #f6b1cd;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Footer.css.map */
