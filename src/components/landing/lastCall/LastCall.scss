@@ -1,0 +1,39 @@
+@import '../../../styles/mixins/mixins.scss';
+@import '../../../styles//variables/variables.scss';
+
+.landing_last_call {
+  background-image: url('../../../assets/Images/last-call-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+
+  .landing_last_call_container_top {
+    text-align: left;
+
+    width: 50vw;
+    padding: 50px;
+
+    h3 {
+      @include primary--font($size: 5em, $color: $white);
+    }
+
+    p {
+      @include secondary--font($size: 1.5em, $color: $white);
+    }
+  }
+
+  .landing_last_call_container_bottom {
+    text-align: right;
+
+    padding: 50px;
+
+    h3 {
+      @include primary--font($size: 5em, $color: $white);
+    }
+
+    p {
+      @include secondary--font($size: 1.5em, $color: $white);
+    }
+  }
+}
