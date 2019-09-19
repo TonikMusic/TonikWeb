@@ -15,17 +15,14 @@ class Nav extends React.Component {
   render() {
     return (
       <nav>
-        <div className="nav_logo">
-          <img src={LogoColor} alt="#" />
-        </div>
-
         <ul>
           <li>Explore</li>
+          <li className="seperator" />
           <li>About</li>
         </ul>
 
         <div className="nav_search">
-          <input type="search" id="search" placeholder="Find Artists, Songs, and Albums" />
+          <img src={LogoColor} alt="#" />
         </div>
 
         <ul>
