@@ -7,8 +7,8 @@ class Nav extends React.Component {
   constructor() {
     super();
     this.state = {
-      loggedIn: false,
-      isArtist: false,
+      // loggedIn: false,
+      // isArtist: false,
     };
   }
 
