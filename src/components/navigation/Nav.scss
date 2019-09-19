@@ -1,2 +1,33 @@
-@import '../../styles/mixins/mixins';
-@import '../../styles/variables/variables';
+@import '../../styles/helper/mixins';
+@import '../../styles/helper/variables';
+
+nav {
+  @include secondary--font($size: 1.5em);
+  background-color: $black;
+  color: $white;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+
+  ul {
+    display: flex;
+
+    li {
+      justify-content: space-around;
+      margin-right: 50px;
+    }
+  }
+
+  .nav_search {
+    img {
+      height: 80px;
+    }
+  }
+}
