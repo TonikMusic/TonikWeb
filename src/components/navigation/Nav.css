@@ -45,8 +45,8 @@ nav .nav__items_left .nav__item_explore {
 }
 
 nav .nav__items_left .nav__item_explore:hover {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background: #fff;
   color: #000;
 }
@@ -59,8 +59,8 @@ nav .nav__items_left .nav__item_about {
 }
 
 nav .nav__items_left .nav__item_about:hover {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background: #fff;
   color: #000;
 }
@@ -89,8 +89,8 @@ nav .nav__items_right .nav__item_login {
 }
 
 nav .nav__items_right .nav__item_login:hover {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background: #fff;
   color: #000;
 }
@@ -103,8 +103,8 @@ nav .nav__items_right .nav__item_signup {
 }
 
 nav .nav__items_right .nav__item_signup:hover {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background: #fff;
   color: #000;
 }
