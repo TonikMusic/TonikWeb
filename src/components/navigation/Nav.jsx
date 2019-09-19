@@ -15,27 +15,24 @@ class Nav extends React.Component {
   render() {
     return (
       <nav>
-        <ul className="nav__items_container">
-          <li>
-            <Link to="/">
-              <img src={LogoColor} alt="#" />
-            </Link>
-          </li>
-          <li className="nav__item_artists">Artists</li>
-          <li className="nav__item_explore">Explore</li>
-          <li className="nav__item_about">About</li>
+        <div className="nav_logo">
+          <img src={LogoColor} alt="#" />
+        </div>
+
+        <ul>
+          <li>Explore</li>
+          <li>About</li>
         </ul>
-        <div className="nav__search">
-          <input type="search" placeholder="Find Artists" />
+
+        <div className="nav_search">
+          <input type="search" id="search" placeholder="Find Artists, Songs, and Albums" />
         </div>
-        <div className="nav__buttons_container">
-          <button id="nav__buttons_login" type="button">
-            Log In
-          </button>
-          <button id="nav__buttons_signup" type="button">
-            Sign Up
-          </button>
-        </div>
+
+        <ul>
+          <li>Log In</li>
+          <li className="seperator" />
+          <li>Sign Up</li>
+        </ul>
       </nav>
     );
   }
