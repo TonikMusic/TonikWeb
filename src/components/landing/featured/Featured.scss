@@ -1,24 +1,24 @@
-@import '../../../styles/helper/mixins';
-@import '../../../styles/helper/variables';
+@import '../../../styles/mixins/mixins.scss';
+@import '../../../styles/variables/variables.scss';
 
 .landing_featured {
   padding: 50px;
   margin-bottom: 5vh;
 
   .landing_featured__title {
-    @include primary--font(
-      $size: 3em,
+    @include primary--font($size: 3em,
       $color: $altSecondaryColor,
       $weight: bold,
-      $lh: 2
-    );
+      $lh: 2);
   }
 
   .landing_featured__artist_cards {
+    text-align: center;
+
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: space-around;
+
 
     .landing_featured__artist_card {
       background-color: $secondaryColor;
@@ -34,15 +34,15 @@
       }
 
       .landing_featured__artist_name {
-        @include primary--font(
-          $size: 1.5em,
+        @include primary--font($size: 1.5em,
           $color: $white,
-          $lh: 2
-        );
+          $lh: 2);
       }
 
       .landing_featured__artist_genre {
         @include secondary--font($size: 1em, $color: $white);
+
+        cursor: pointer;
 
         border: 2px $white solid;
         border-radius: 10px 10px 10px 10px;

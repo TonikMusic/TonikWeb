@@ -13,12 +13,12 @@
 }
 
 .landing_featured .landing_featured__artist_cards {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  text-align: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -49,6 +49,7 @@
   font-family: 'Abel', sans-serif;
   font-size: 1em;
   color: #fff;
+  cursor: pointer;
   border: 2px #fff solid;
   border-radius: 10px 10px 10px 10px;
   background: #64058f;
