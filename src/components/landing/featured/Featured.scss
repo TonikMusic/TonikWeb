@@ -1,5 +1,5 @@
-@import '../../../styles/mixins/mixins.scss';
-@import '../../../styles/variables/variables.scss';
+@import '../../../styles/helper/mixins';
+@import '../../../styles/helper/variables';
 
 .landing_featured {
   padding: 50px;
@@ -18,11 +18,11 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
 
     .landing_featured__artist_card {
       background-color: $secondaryColor;
       border-radius: 20px 20px 20px 20px;
-      box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.55);
 
       margin: 10px;
       padding: 30px;

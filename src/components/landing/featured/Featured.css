@@ -19,13 +19,13 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .landing_featured .landing_featured__artist_cards .landing_featured__artist_card {
   background-color: #f6b1cd;
   border-radius: 20px 20px 20px 20px;
-  -webkit-box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.55);
-          box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.55);
   margin: 10px;
   padding: 30px;
   -webkit-box-flex: 0;
