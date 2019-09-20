@@ -10,7 +10,6 @@ class Nav extends React.Component {
     this.state = {
       // loggedIn: false,
       // isArtist: false,
-      // showAuthModal: false,
     };
   }
 
