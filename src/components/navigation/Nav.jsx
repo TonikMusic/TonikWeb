@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Nav.css';
 import LogoColor from '../../assets/Logos/MainLogoNoColor.png';
+import SearchIcon from '../../assets/Icons/search-icon.png';
 
 class Nav extends React.Component {
   constructor() {
@@ -15,21 +16,28 @@ class Nav extends React.Component {
   render() {
     return (
       <nav>
-        <ul>
-          <li>Explore</li>
-          <li className="seperator" />
-          <li>About</li>
-        </ul>
+        <div className="nav__items_left">
+          <div className="nav__item_explore">Explore</div>
+          <div className="nav__item_about">About</div>
+        </div>
 
-        <div className="nav_search">
+        <div className="nav__logo">
           <img src={LogoColor} alt="#" />
         </div>
 
-        <ul>
-          <li>Log In</li>
-          <li className="seperator" />
-          <li>Sign Up</li>
-        </ul>
+        <div className="nav__items_right">
+          <div
+            className="nav__item_login"
+            role="button"
+            onClick={this.showAuth}
+            onKeyPress={this.showAuth}
+            tabIndex={0}
+          >
+            Log In
+          </div>
+          <div className="nav__item_signup">Sign Up</div>
+          <img src={SearchIcon} alt="#" className="nav__item_search" />
+        </div>
       </nav>
     );
   }
