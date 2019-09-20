@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Nav.css';
 import LogoColor from '../../assets/Logos/MainLogoNoColor.png';
 import SearchIcon from '../../assets/Icons/search-icon.png';
@@ -10,6 +10,7 @@ class Nav extends React.Component {
     this.state = {
       // loggedIn: false,
       // isArtist: false,
+      // showAuthModal: false,
     };
   }
 
@@ -26,7 +27,15 @@ class Nav extends React.Component {
         </div>
 
         <div className="nav__items_right">
-          <div className="nav__item_login">Log In</div>
+          <div
+            className="nav__item_login"
+            role="button"
+            onClick={this.showAuth}
+            onKeyPress={this.showAuth}
+            tabIndex={0}
+          >
+            Log In
+          </div>
           <div className="nav__item_signup">Sign Up</div>
           <img src={SearchIcon} alt="#" className="nav__item_search" />
         </div>
