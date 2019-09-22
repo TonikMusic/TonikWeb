@@ -26,16 +26,12 @@ class Nav extends React.Component {
         </div>
 
         <div className="nav__items_right">
-          <div
-            className="nav__item_login"
-            role="button"
-            onClick={this.showAuth}
-            onKeyPress={this.showAuth}
-            tabIndex={0}
-          >
+          <div className="nav__item_login" role="button">
             Log In
           </div>
-          <div className="nav__item_signup">Sign Up</div>
+          <div className="nav__item_signup" role="button">
+            Sign Up
+          </div>
           <img src={SearchIcon} alt="#" className="nav__item_search" />
         </div>
       </nav>

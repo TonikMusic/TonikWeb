@@ -98,6 +98,13 @@ nav .nav__items_right .nav__item_login {
       -ms-user-select: none;
           user-select: none;
   cursor: pointer;
+  --theme-text-color-0: blue;
+  --theme-text-color-1: #3333ff;
+  --theme-text-color-2: #6666ff;
+  --theme-text-color-3: #9999ff;
+  --theme-text-color-4: #ccccff;
+  --theme-text-color-5: white;
+  --theme-text-color-6: white;
 }
 
 nav .nav__items_right .nav__item_login:hover {
