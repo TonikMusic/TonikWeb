@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Nav.css';
 import LogoColor from '../../assets/Logos/MainLogoNoColor.png';
 import SearchIcon from '../../assets/Icons/search-icon.png';
@@ -27,10 +27,10 @@ class Nav extends React.Component {
 
         <div className="nav__items_right">
           <div className="nav__item_login" role="button">
-            Log In
+            <NavLink to={{ pathname: '/login', state: { loginModal: true } }}>Log In</NavLink>
           </div>
           <div className="nav__item_signup" role="button">
-            Sign Up
+            <NavLink to={{ pathname: '/signup', state: { signupModal: true } }}>Sign Up</NavLink>
           </div>
           <img src={SearchIcon} alt="#" className="nav__item_search" />
         </div>
