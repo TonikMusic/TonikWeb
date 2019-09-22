@@ -63,6 +63,10 @@ nav .nav__items_left .nav__item_explore:hover {
   color: #000;
 }
 
+nav .nav__items_left .nav__item_explore:hover a {
+  color: #000;
+}
+
 nav .nav__items_left .nav__item_about {
   text-align: center;
   padding: 8%;
@@ -78,6 +82,10 @@ nav .nav__items_left .nav__item_about:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background: #fff;
+  color: #000;
+}
+
+nav .nav__items_left .nav__item_about:hover a {
   color: #000;
 }
 
@@ -115,6 +123,10 @@ nav .nav__items_right .nav__item_login:hover {
   color: #000;
 }
 
+nav .nav__items_right .nav__item_login:hover a {
+  color: #000;
+}
+
 nav .nav__items_right .nav__item_signup {
   text-align: center;
   padding: 8%;
@@ -130,6 +142,10 @@ nav .nav__items_right .nav__item_signup:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background: #fff;
+  color: #000;
+}
+
+nav .nav__items_right .nav__item_signup:hover a {
   color: #000;
 }
 

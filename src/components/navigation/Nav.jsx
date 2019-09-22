@@ -22,7 +22,9 @@ class Nav extends React.Component {
         </div>
 
         <div className="nav__logo">
-          <img src={LogoColor} alt="#" />
+          <NavLink to="/">
+            <img src={LogoColor} alt="#" />
+          </NavLink>
         </div>
 
         <div className="nav__items_right">

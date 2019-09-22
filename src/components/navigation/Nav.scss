@@ -55,10 +55,10 @@ nav {
 
         background: $white;
         color: $black;
+      }
 
-        a {
-          $color: $white;
-        }
+      &:hover a {
+        color: $black;
       }
     }
 
@@ -76,6 +76,10 @@ nav {
         transition: all 0.5s;
 
         background: $white;
+        color: $black;
+      }
+
+      &:hover a {
         color: $black;
       }
     }
@@ -106,10 +110,10 @@ nav {
 
         background: $white;
         color: $black;
+      }
 
-        a {
-          $color: $white;
-        }
+      &:hover a {
+        color: $black;
       }
     }
 
@@ -127,6 +131,10 @@ nav {
         transition: all 0.5s;
 
         background: $white;
+        color: $black;
+      }
+
+      &:hover a {
         color: $black;
       }
     }
