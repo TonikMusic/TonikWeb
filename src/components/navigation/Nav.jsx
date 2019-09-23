@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Nav.css';
 import LogoColor from '../../assets/Logos/MainLogoNoColor.png';
 import SearchIcon from '../../assets/Icons/search-icon.png';
@@ -22,20 +22,18 @@ class Nav extends React.Component {
         </div>
 
         <div className="nav__logo">
-          <img src={LogoColor} alt="#" />
+          <NavLink to="/">
+            <img src={LogoColor} alt="#" />
+          </NavLink>
         </div>
 
         <div className="nav__items_right">
-          <div
-            className="nav__item_login"
-            role="button"
-            onClick={this.showAuth}
-            onKeyPress={this.showAuth}
-            tabIndex={0}
-          >
-            Log In
+          <div className="nav__item_login" role="button">
+            <NavLink to={{ pathname: '/login', state: { loginModal: true } }}>Log In</NavLink>
           </div>
-          <div className="nav__item_signup">Sign Up</div>
+          <div className="nav__item_signup" role="button">
+            <NavLink to={{ pathname: '/signup', state: { signupModal: true } }}>Sign Up</NavLink>
+          </div>
           <img src={SearchIcon} alt="#" className="nav__item_search" />
         </div>
       </nav>
