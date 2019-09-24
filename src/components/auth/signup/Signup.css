@@ -3,7 +3,7 @@
   text-align: center;
   width: 35vw;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -25,20 +25,40 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .signup__container .signup__fields > li button {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 578px;
-          flex: 0 1 578px;
+      -ms-flex: 0 1 576px;
+          flex: 0 1 576px;
   padding: 8px 16px;
+  background: #940ea1;
+  border: none;
+  border-radius: 0px 0px 25px 25px;
+  color: #fff;
+}
+
+.signup__container .signup__fields > li input {
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  border: solid 3px #000;
+  border-radius: 25px 25px 25px 25px;
+  padding: 10px;
+}
+
+.signup__container .signup__fields > li .checkmark {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
 }
 
 .signup__container .signup__fields > li > label,
 .signup__container .signup__fields li p {
   font-family: 'Abel', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: left;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 220px;
