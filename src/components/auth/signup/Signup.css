@@ -1,16 +1,54 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap");
 .signup__container {
+  text-align: center;
+  width: 35vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.signup__container h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.5em;
+  color: #f6b1cd;
+}
+
+.signup__container .signup__fields > li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 30vh;
+  padding: 20px;
+}
+
+.signup__container .signup__fields > li button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 578px;
+          flex: 0 1 578px;
+  padding: 8px 16px;
+}
+
+.signup__container .signup__fields > li > label,
+.signup__container .signup__fields li p {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 220px;
+          flex: 1 0 220px;
+  max-width: 220px;
+}
+
+.signup__container .signup__fields > li > label + * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 350px;
+          flex: 0 1 350px;
 }
 /*# sourceMappingURL=Signup.css.map */

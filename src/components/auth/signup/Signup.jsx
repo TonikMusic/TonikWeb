@@ -13,6 +13,7 @@ class Signup extends React.Component {
     return (
       <div className="signup__container">
         <form>
+          <h1>Sign Up</h1>
           <ul className="signup__fields">
             <li>
               <label htmlFor="full_name">Full Name</label>
@@ -35,8 +36,15 @@ class Signup extends React.Component {
               <input type="password" id="password" placeholder="Confirm Password" />
             </li>
             <li>
-              <label htmlFor="birth_date">Birthday</label>
-              <input type="date" id="birth_date" placeholder="Enter Birthdate" />
+              <label htmlFor="birth_date">Birth Date</label>
+              <input type="date" id="birth_date" />
+            </li>
+            <li>
+              <label htmlFor="artist_check">Are you an artist?</label>
+              <input type="checkbox" id="artist_check" />
+            </li>
+            <li>
+              <button type="submit">Submit</button>
             </li>
           </ul>
         </form>

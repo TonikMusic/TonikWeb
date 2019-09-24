@@ -2,10 +2,44 @@
 @import '../../../styles/helper/mixins';
 
 .signup__container {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 
-  margin-top: 30vh;
+  width: 35vw;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  h1 {
+    @include primary--font(
+      $size: 3.5em,
+      $color: $secondaryColor
+    );
+  }
+
+  .signup__fields > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    button {
+      flex: 0 1 578px;
+      padding: 8px 16px;
+    }
+  }
+
+  .signup__fields > li > label,
+  .signup__fields li p {
+    @include secondary--font($size: 1.5em);
+    text-align: left;
+
+    flex: 1 0 220px;
+    max-width: 220px;
+  }
+
+  .signup__fields > li > label + * {
+    flex: 0 1 350px;
+  }
 }
