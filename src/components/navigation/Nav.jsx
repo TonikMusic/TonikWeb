@@ -29,10 +29,10 @@ class Nav extends React.Component {
 
         <div className="nav__items_right">
           <div className="nav__item_login" role="button">
-            <NavLink to={{ pathname: '/login', state: { loginModal: true } }}>Log In</NavLink>
+            <NavLink to="/login">Log In</NavLink>
           </div>
           <div className="nav__item_signup" role="button">
-            <NavLink to={{ pathname: '/signup', state: { signupModal: true } }}>Sign Up</NavLink>
+            <NavLink to="/signup">Sign Up</NavLink>
           </div>
           <img src={SearchIcon} alt="#" className="nav__item_search" />
         </div>
