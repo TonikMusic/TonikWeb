@@ -28,12 +28,16 @@ class Nav extends React.Component {
         </div>
 
         <div className="nav__items_right">
-          <div className="nav__item_login" role="button">
-            <NavLink to="/login">Log In</NavLink>
-          </div>
-          <div className="nav__item_signup" role="button">
-            <NavLink to="/signup">Sign Up</NavLink>
-          </div>
+          <NavLink to="/login">
+            <div className="nav__item_login" role="button">
+              Log In
+            </div>
+          </NavLink>
+          <NavLink to="/signup">
+            <div className="nav__item_signup" role="button">
+              Sign Up
+            </div>
+          </NavLink>
           <img src={SearchIcon} alt="#" className="nav__item_search" />
         </div>
       </nav>
