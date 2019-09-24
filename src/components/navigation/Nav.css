@@ -41,7 +41,7 @@ nav .nav__items_left {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 15%;
+  width: 18%;
   height: 100%;
 }
 
@@ -101,7 +101,7 @@ nav .nav__items_right {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 15%;
+  width: 18%;
   height: 100%;
 }
 
@@ -150,7 +150,7 @@ nav .nav__items_right .nav__item_signup:hover a {
 }
 
 nav .nav__items_right .nav__item_search {
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 nav .nav__logo img {

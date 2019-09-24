@@ -13,22 +13,10 @@ nav {
 
   position: fixed;
   top: 0;
-  height: 8vh;
   width: 100%;
+  height: 8vh;
 
   padding: 20px;
-
-  a {
-    color: $white;
-
-    &:focus,
-    &:visited,
-    &:link,
-    &:hover,
-    &:active {
-      text-decoration: none;
-    }
-  }
 
   // LEFT ITEMS
   .nav__items_left {
@@ -37,7 +25,7 @@ nav {
     align-content: center;
     align-items: center;
 
-    width: 15%;
+    width: 18%;
     height: 100%;
 
     // EXPLORE BUTTON
@@ -54,10 +42,6 @@ nav {
         transition: all 0.5s;
 
         background: $white;
-        color: $black;
-      }
-
-      &:hover a {
         color: $black;
       }
     }
@@ -78,10 +62,6 @@ nav {
         background: $white;
         color: $black;
       }
-
-      &:hover a {
-        color: $black;
-      }
     }
   }
 
@@ -92,7 +72,7 @@ nav {
     align-content: center;
     align-items: center;
 
-    width: 15%;
+    width: 18%;
     height: 100%;
 
     // LOGIN BUTTON
@@ -109,10 +89,6 @@ nav {
         transition: all 0.5s;
 
         background: $white;
-        color: $black;
-      }
-
-      &:hover a {
         color: $black;
       }
     }
@@ -133,15 +109,11 @@ nav {
         background: $white;
         color: $black;
       }
-
-      &:hover a {
-        color: $black;
-      }
     }
 
     // SEARCH BUTTON
     .nav__item_search {
-      margin-left: 15%;
+      margin-left: 10%;
     }
   }
 
