@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import './Login.css';
@@ -27,6 +28,10 @@ class Login extends React.Component {
               <button type="submit">Log In</button>
             </li>
           </ul>
+          <p>
+            Don't have an account yet?
+            <span>Sign Up!</span>
+          </p>
         </form>
       </div>
     );
