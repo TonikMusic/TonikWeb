@@ -41,9 +41,12 @@ class Signup extends React.Component {
               <input type="date" id="birth_date" />
             </li>
             <li>
-              <label htmlFor="artist_check">Are you an artist?</label>
-              <input type="checkbox" id="artist_check" value="Yes" />
-              <span className="checkmark" />
+              <div className="pretty p-default">
+                <input type="checkbox" />
+                <div className="state">
+                  <label>Are you an Artist?</label>
+                </div>
+              </div>
             </li>
             <li>
               <button type="submit">Submit</button>
