@@ -8,9 +8,38 @@ class Nav extends React.Component {
   constructor() {
     super();
     this.state = {
-      // loggedIn: false,
+      loggedIn: false,
       // isArtist: false,
     };
+  }
+
+  checkAuth() {
+    const { loggedIn } = this.state;
+    if (loggedIn === false) {
+      return (
+        <ul className="nav__items_right">
+          <NavLink to="/login">
+            <li className="nav__item">Log In</li>
+          </NavLink>
+          <NavLink to="/signup">
+            <li className="nav__item">Sign Up</li>
+          </NavLink>
+          <li>
+            <img className="nav__item_search" src={SearchIcon} alt="#" />
+          </li>
+        </ul>
+      );
+    }
+    return (
+      <ul className="nav__items_right">
+        <NavLink to="/profile">
+          <li className="nav__item">Profile</li>
+        </NavLink>
+        <li>
+          <img className="nav__item_search" src={SearchIcon} alt="#" />
+        </li>
+      </ul>
+    );
   }
 
   render() {
@@ -29,17 +58,7 @@ class Nav extends React.Component {
           <img className="nav__logo" src={LogoNoColor} alt="#" />
         </NavLink>
 
-        <ul className="nav__items_right">
-          <NavLink to="/login">
-            <li className="nav__item">Log In</li>
-          </NavLink>
-          <NavLink to="/signup">
-            <li className="nav__item">Sign Up</li>
-          </NavLink>
-          <li>
-            <img className="nav__item_search" src={SearchIcon} alt="#" />
-          </li>
-        </ul>
+        {this.checkAuth()}
       </nav>
     );
   }
