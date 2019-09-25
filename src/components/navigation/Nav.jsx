@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
-import LogoColor from '../../assets/Logos/MainLogoNoColor.png';
+import LogoNoColor from '../../assets/Logos/MainLogoNoColor.png';
 import SearchIcon from '../../assets/Icons/search-icon.png';
 
 class Nav extends React.Component {
@@ -16,30 +16,30 @@ class Nav extends React.Component {
   render() {
     return (
       <nav>
-        <div className="nav__items_left">
-          <div className="nav__item_explore">Explore</div>
-          <div className="nav__item_about">About</div>
-        </div>
-
-        <div className="nav__logo">
-          <NavLink to="/">
-            <img src={LogoColor} alt="#" />
+        <ul className="nav__items_left">
+          <NavLink to="/explore">
+            <li className="nav__item">Explore</li>
           </NavLink>
-        </div>
+          <NavLink to="/learn">
+            <li className="nav__item">About</li>
+          </NavLink>
+        </ul>
 
-        <div className="nav__items_right">
+        <NavLink to="/">
+          <img className="nav__logo" src={LogoNoColor} alt="#" />
+        </NavLink>
+
+        <ul className="nav__items_right">
           <NavLink to="/login">
-            <div className="nav__item_login" role="button">
-              Log In
-            </div>
+            <li className="nav__item">Log In</li>
           </NavLink>
           <NavLink to="/signup">
-            <div className="nav__item_signup" role="button">
-              Sign Up
-            </div>
+            <li className="nav__item">Sign Up</li>
           </NavLink>
-          <img src={SearchIcon} alt="#" className="nav__item_search" />
-        </div>
+          <li>
+            <img className="nav__item_search" src={SearchIcon} alt="#" />
+          </li>
+        </ul>
       </nav>
     );
   }

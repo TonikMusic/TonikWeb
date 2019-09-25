@@ -21,116 +21,29 @@ nav {
   padding: 20px;
 }
 
-nav .nav__items_left {
+nav .nav__logo {
+  height: 13vh;
+}
+
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 18%;
-  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-nav .nav__items_left .nav__item_explore {
-  text-align: center;
-  padding: 8%;
-  border-radius: 12%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: pointer;
-}
-
-nav .nav__items_left .nav__item_explore:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  background: #fff;
-  color: #000;
-}
-
-nav .nav__items_left .nav__item_about {
-  text-align: center;
-  padding: 8%;
-  border-radius: 15%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: pointer;
-}
-
-nav .nav__items_left .nav__item_about:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  background: #fff;
-  color: #000;
-}
-
-nav .nav__items_right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 18%;
-  height: 100%;
-}
-
-nav .nav__items_right .nav__item_login {
-  text-align: center;
-  padding: 8%;
-  border-radius: 15%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: pointer;
-}
-
-nav .nav__items_right .nav__item_login:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  background: #fff;
-  color: #000;
-}
-
-nav .nav__items_right .nav__item_signup {
-  text-align: center;
-  padding: 8%;
-  border-radius: 15%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: pointer;
-}
-
-nav .nav__items_right .nav__item_signup:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  background: #fff;
-  color: #000;
-}
-
-nav .nav__items_right .nav__item_search {
-  margin-left: 10%;
-}
-
-nav .nav__logo img {
+nav ul li {
+  border-radius: 10%;
+  padding: 20px;
+  margin-left: 2vw;
+  text-decoration: none;
   color: #fff;
-  height: 80px;
+}
+
+nav ul .nav__item:hover {
+  background-color: #fff;
+  color: #000;
 }
 /*# sourceMappingURL=Nav.css.map */
