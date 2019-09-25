@@ -15,6 +15,12 @@
   color: #f6b1cd;
 }
 
+.signup__container p {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+  color: #000;
+}
+
 .signup__container .signup__fields > li {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -18,6 +18,10 @@
     );
   }
 
+  p {
+    @include secondary--font($size: 1.5em, $color: $black);
+  }
+
   .signup__fields > li {
     display: flex;
     align-items: center;

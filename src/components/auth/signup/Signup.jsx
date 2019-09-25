@@ -14,6 +14,7 @@ class Signup extends React.Component {
       <div className="signup__container">
         <form>
           <h1>Sign Up</h1>
+          <p>Join Our Community!</p>
           <ul className="signup__fields">
             <li>
               <label htmlFor="full_name">Full Name</label>
